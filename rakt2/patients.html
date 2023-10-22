@@ -12,6 +12,66 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Patients</title>
+    <style>
+        
+        .data{
+            padding-left: 12%;
+            padding-top: 8%;
+            font-size: 200%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color:#5AAC4E;
+            /* padding: 20px; */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .patient-list {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            width: 100rem;
+            /* padding: 20px;/ */
+        }
+
+        table {
+            width: 100rem;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color:#5AAC4E;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #e0e0e0;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -26,16 +86,47 @@
                       class="fas fa-project-diagram me-2"></i>Patients</a>
               <a href="accepted.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                       class="fas fa-chart-line me-2"></i>Other Doctors</a>
-              <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-address-card"></i>  Profile</a>
+              <a href="profile2.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-address-card"></i> Hospitals</a>
 
-              <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
+              <a href="../healthcouch-master/index.html" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
                       class="fas fa-power-off me-2"></i>Logout</a>
           </div>
       
         </div>
         <!-- /#sidebar-wrapper -->
-
-       
+        <div  class="data">
+            <div class="containe">
+                <div class="patient-list">
+                    <h1 style="padding: 1%;">Patient List</h1>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Medical History</th>
+                            <th>Contact</th>
+                        </tr>
+                        <tr>
+                            <td><a href="1p.html">Anshul</a></td>
+                            <td>45</td>
+                            <td>High blood pressure, seasonal allergies</td>
+                            <td>(123) 456-7890</td>
+                        </tr>
+                        <tr>
+                            <td><a href="2p.html">Aman</a></td>
+                            <td>35</td>
+                            <td>Diabetes, asthma</td>
+                            <td>(234) 567-8901</td>
+                        </tr>
+                        <tr>
+                            <td>Akshat</td>
+                            <td>55</td>
+                            <td>Arthritis, heart condition</td>
+                            <td>(345) 678-9012</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </div>
     </div>
 
     

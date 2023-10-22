@@ -14,12 +14,38 @@
      color: black;
     
 }
+.head{
+    padding-left: 35%;
+    padding-top: 10rem;
+    
+}
 .bottom:hover{
     color: darkgreen;
 }
 hr {
 border: 2px solid #ccc; /* Grey color (#ccc) */
 }
+
+        .slider-container {
+            width: 3000px;
+            /* height: 40px; */
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            /* width: 100%; */
+            transition: transform 0.5s ease;
+        }
+
+        .card {
+            flex: 0 0 25%;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            width: 50%;
+        }
 </style>
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -111,24 +137,26 @@ border: 2px solid #ccc; /* Grey color (#ccc) */
         </div>
     </div>
     <!-- Slider Area End -->
-    <section class="wantToWork-area">
-        <div class="container">
-            <div class="wants-wrapper w-padding2">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-7 col-lg-9 col-md-8">
-                        <div class="wantToWork-caption wantToWork-caption2">
-                            <h2>Happy mind healthy life</h2>
-                            <p>Almost before we knew it, we had left the ground</p>
+                    
+                        <div class="head">
+                            <h2 style="font-size: 5rem; color: #234821; ">Happy mind healthy life</h2>
+                            <p style="font-size: 3rem;">Almost before we knew it, we had left the ground</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    
+              
+
+
+<div style="display: flex; padding-left: 26%; padding-top: 50px;">
+
+    <button   style="width: 5px; background-color: #234821; padding-right: 10px;"  id="prev"></button>
+    <div>
     <!--? Services Area Start -->
     <div class="service-area">
+        
         <div class="container">
             <div class="row">
+            
+<!--               
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
@@ -152,7 +180,8 @@ border: 2px solid #ccc; /* Grey color (#ccc) */
                             <h5><a href="https://www.truemeds.in/?utm_source=google&utm_medium=Search&utm_campaign=Sok_Search_Non_Brand_Broad_ROAS&adgroupid=142236452342&utm_term=online%20pharmacy&utm_adid={adid}&gclid=CjwKCAjwo7iiBhAEEiwAsIxQEdF4hg4TPUme7aAoTB8jBzleextP2Uyo1OHv0BRMBFYLIsT8ukG7oBoC_MYQAvD_BwE" target="_blank">E-Pharmacy</a></h5>
                         </div>
                     </div>
-                </div>
+                </div> 
+
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
@@ -165,15 +194,126 @@ border: 2px solid #ccc; /* Grey color (#ccc) */
                         </div>
                     </div>
                 </div>
+
+            -->
+
+
+          
+
+
+
+
+            <div class="slider-container" style="padding-top: 17%;">
+                <div class="slider" id="slider">
+                    <div class="card">
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
+                            <div class="single-cat text-center mb-50">
+                                <div class="cat-icon">
+                                    <a href="https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/bbpublicindex.html" target="_blank">
+                                    <img src="assets/img/icon/blood bank.png" alt="" width="150" height="200">
+                                    </a>
+                                </div>
+                                <div class="cat-cap">
+                                    <h5><a href="https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/bbpublicindex.html" target="_blank">Blood Bank</a></h5>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                       
+
+
+                    </div>
+                    <div class="card">
+
+
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <a href="https://www.truemeds.in/?utm_source=google&utm_medium=Search&utm_campaign=Sok_Search_Non_Brand_Broad_ROAS&adgroupid=142236452342&utm_term=online%20pharmacy&utm_adid={adid}&gclid=CjwKCAjwo7iiBhAEEiwAsIxQEdF4hg4TPUme7aAoTB8jBzleextP2Uyo1OHv0BRMBFYLIsT8ukG7oBoC_MYQAvD_BwE" target="_blank">
+                                <img src="assets/img/icon/epharmacy.png" alt="" width="150" height="200">
+                                </a>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="https://www.truemeds.in/?utm_source=google&utm_medium=Search&utm_campaign=Sok_Search_Non_Brand_Broad_ROAS&adgroupid=142236452342&utm_term=online%20pharmacy&utm_adid={adid}&gclid=CjwKCAjwo7iiBhAEEiwAsIxQEdF4hg4TPUme7aAoTB8jBzleextP2Uyo1OHv0BRMBFYLIsT8ukG7oBoC_MYQAvD_BwE" target="_blank">E-Pharmacy</a></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-6"> -->
+                            <div class="single-cat text-center mb-50">
+                                <div class="cat-icon">
+                                    <a href="https://www.lalpathlabs.com/" target="_blank">
+                                    <img src="assets/img/icon/pathlab.png"  alt="" width="150" height="200">
+                                    </a>
+                                </div>
+                                <div class="cat-cap">
+                                    <h5><a href="https://www.lalpathlabs.com/" target="_blank">Path Lab</a></h5>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <a href="../Gym_web/index.html" target="_blank">
+                                <img src="https://imags.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjgxLTAxNzYtbDFsZ2c1ZmgucG5n.png" style="background-color: #234821;"  alt="" width="150" height="200">
+                                </a>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="../Gym_web/index.html" target="_blank">Gym</a></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <a href="../Yoga-Website-main/index.html" target="_blank">
+                                <img src="assets/img/icon/pathlab.png"  alt="" width="150" height="200">
+                                </a>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="../Yoga-Website-main/index.html" target="_blank">Yoga</a></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+
+
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <a href="../medi-html/index.html" target="_blank">
+                                <img src="assets/img/icon/epharmacy.png"  alt="" width="150" height="200">
+                                </a>
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="../medi-html/index.html" target="_blank">Homeopathy</a></h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             </div>
         </div>
     </div>
-  
+</div>
+    <button style="width: 5px; background-color: #234821; padding-left: 10px;"  id="next"></button>
+
+</div>
 <hr>
 
-
-<p style="font-size: 100px; padding: 40px; color: #234821; text-align: center;">Smart Care</p>
-
+<div style="padding-left: 5%; padding-top: 2%;">
+<p style="font-size: 100px;  color: #234821; text-align: center;">Smart Care</p>
+</div>
 <div style="display: flex; padding-top: 40px; padding-left: 23vw; gap: 200px;">
 
 
@@ -182,6 +322,7 @@ border: 2px solid #ccc; /* Grey color (#ccc) */
     <a class="bottom" href="">Privacy Policy</a>
     <a class="bottom" href="">Help</a>
 </div>
+
 <br><br><br>
 <div style="background-color: #234821; padding: 50px; text-align: center; color: white; font-size: 25px;">
     © 2023 Smart Care. All rights reserved. This site is purely for educational purposes; we do not diagnose, treat, or offer patient-specific advice.
@@ -228,5 +369,31 @@ border: 2px solid #ccc; /* Grey color (#ccc) */
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
 
+<script>
+    const slider = document.getElementById('slider');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    let scrollPosition = 0;
+    
+    prevButton.addEventListener('click', () => {
+        scrollPosition -= 400;
+        if (scrollPosition < 0) {
+            scrollPosition = 0;
+        }
+        updateSlider();
+    });
+
+    nextButton.addEventListener('click', () => {
+        scrollPosition += 400;
+        if (scrollPosition > (slider.scrollWidth - slider.clientWidth)) {
+            scrollPosition = (slider.scrollWidth - slider.clientWidth);
+        }
+        updateSlider();
+    });
+
+    function updateSlider() {
+        slider.style.transform = `translateX(-${scrollPosition}px)`;
+    }
+</script>
 </body>
 </html>
